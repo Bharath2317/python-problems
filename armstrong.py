@@ -4,7 +4,6 @@ def armstrong(num):
   original = num
   num_digits = len(str(num))
   arm_sum = 0
-
   while num>0:
     last_digit = num%10
     arm_sum += last_digit**num_digits
